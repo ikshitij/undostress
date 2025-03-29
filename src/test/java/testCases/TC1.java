@@ -17,9 +17,7 @@ import testBase.TB1;
 import testUtility.Helper;
 public class TC1 extends TB1{
 	
-	WebDriver driver = new ChromeDriver();
-	public static void main(String[] args) {
-	}
+	
 		@Test(priority = 1)
 		public void HomeScreen() throws InterruptedException {
 		Helper helper = new Helper();
